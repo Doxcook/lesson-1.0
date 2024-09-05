@@ -18,4 +18,9 @@ public class Cat extends Mammals {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    @Override
+    public void say(){
+        System.out.println("myau");
+    }
 }

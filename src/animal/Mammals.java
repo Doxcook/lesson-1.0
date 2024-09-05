@@ -28,4 +28,8 @@ public class Mammals {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void say(){
+        System.out.println("I don't speak :)");
+    }
 }
