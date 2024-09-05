@@ -1,3 +1,5 @@
+package animal;
+
 public class Mammals {
     int age;
     String name;

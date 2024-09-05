@@ -1,6 +1,15 @@
 package animal;
 
 public class Cat extends Mammals {
+
+    public Cat() {
+        super();
+    }
+
+    public Cat(int age, String name) {
+        super(age, name);
+    }
+
     //перегрузка в строку для кошки
     @Override
     public String toString() {
