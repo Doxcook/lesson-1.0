@@ -4,7 +4,7 @@ import srategy.Speak;
 
 public class ToyDog implements Speak {
 
-    public void say(){
+    public void speak(){
         System.out.println("Pip");
     }
 

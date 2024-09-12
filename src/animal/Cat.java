@@ -11,7 +11,7 @@ public class Cat extends Mammals {
     }
 
     @Override
-    public void say(){
+    public void speak(){
 
         System.out.println("myau");
     }

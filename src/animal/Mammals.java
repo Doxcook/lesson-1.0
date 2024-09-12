@@ -1,8 +1,9 @@
 package animal;
 
+import srategy.CanSpeak;
 import srategy.Speak;
 
-public abstract class Mammals implements Speak {
+public abstract class Mammals {
     int age;
     String name;
 
@@ -31,6 +32,16 @@ public abstract class Mammals implements Speak {
         this.name = name;
     }
 
-    abstract public void say();
+    //abstract public void say();
+
+    Speak speakBehavior = new CanSpeak();
+
+    public void setSpeak(Speak speak){
+        this.speakBehavior = speak;
+    }
+
+    void speak(){
+        speakBehavior.speak();
+    }
 
 }

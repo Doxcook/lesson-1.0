@@ -9,7 +9,7 @@ public class Dog extends Mammals {
     }
 
     @Override
-    public void say() {
+    public void speak() {
         System.out.println("Woof");
     }
 

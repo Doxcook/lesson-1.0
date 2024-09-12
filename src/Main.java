@@ -13,7 +13,7 @@ public class Main {
         home[1] = dog;
         home[2] = toyDog;
         for(Speak x: home){
-            x.say();
+            x.speak();
         }
     }
 

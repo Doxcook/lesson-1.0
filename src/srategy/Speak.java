@@ -1,5 +1,5 @@
 package srategy;
 
 public interface Speak {
-    void say();
+    void speak();
 }
