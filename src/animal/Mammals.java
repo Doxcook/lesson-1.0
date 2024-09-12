@@ -1,6 +1,6 @@
 package animal;
 
-public class Mammals {
+public abstract class Mammals {
     int age;
     String name;
 
@@ -29,7 +29,5 @@ public class Mammals {
         this.name = name;
     }
 
-    public void say(){
-        System.out.println("I don't speak :)");
-    }
+    abstract public void say();
 }

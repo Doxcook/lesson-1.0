@@ -1,6 +1,8 @@
 import animal.Mammals;
 import animal.Dog;
 import animal.Cat;
+import animal.ToyDog;
+
 //123456fekfje
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +20,8 @@ public class Main {
             x.say();
         }
 
-        Mammals mammals = new Mammals();
+        ToyDog toy = new ToyDog("green", "rubber");
+        toy.say();
     }
 
 }

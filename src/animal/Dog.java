@@ -1,5 +1,4 @@
 package animal;
-//ejej
 public class Dog extends Mammals {
     public Dog() {
         super();
