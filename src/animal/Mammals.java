@@ -1,6 +1,8 @@
 package animal;
 
-public abstract class Mammals implements Speak, Run{
+import srategy.Speak;
+
+public abstract class Mammals implements Speak {
     int age;
     String name;
 
@@ -31,5 +33,4 @@ public abstract class Mammals implements Speak, Run{
 
     abstract public void say();
 
-    abstract public void run();
 }

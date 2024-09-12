@@ -9,20 +9,8 @@ public class Dog extends Mammals {
     }
 
     @Override
-    public String toString() {
-        return "Dog{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
-    @Override
     public void say() {
         System.out.println("Woof");
     }
 
-    @Override
-    public void run() {
-        System.out.println("Dog " + name + " run");
-    }
 }

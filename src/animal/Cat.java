@@ -10,21 +10,10 @@ public class Cat extends Mammals {
         super(age, name);
     }
 
-    //перегрузка в строку для кошки
-    @Override
-    public String toString() {
-        return "Cat{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
     @Override
     public void say(){
+
         System.out.println("myau");
     }
 
-    public void run(){
-        System.out.println("Cat " + name + " run");
-    }
 }
