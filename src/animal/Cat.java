@@ -1,5 +1,7 @@
 package animal;
 
+import srategy.Speak;
+
 public class Cat extends Mammals {
 
     public Cat() {
@@ -11,9 +13,7 @@ public class Cat extends Mammals {
     }
 
     @Override
-    public void speak(){
-
-        System.out.println("myau");
+    public void speak() {
+        System.out.println("Myau");
     }
-
 }

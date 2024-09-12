@@ -16,8 +16,6 @@ public abstract class Mammals {
         this.name = name;
     }
 
-    //abstract public void say();
-
     Speak speakBehavior = new CanSpeak();
 
     public void setSpeak(Speak speak){
