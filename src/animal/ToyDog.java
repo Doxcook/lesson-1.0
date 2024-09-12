@@ -1,6 +1,6 @@
 package animal;
 
-public class ToyDog implements Speak{
+public class ToyDog implements Speak,Run{
     String color;
     String material;
 
@@ -33,5 +33,7 @@ public class ToyDog implements Speak{
         System.out.println("Pip");
     }
 
-
+    public void run(){
+        System.out.println("I can't run, I'm a toy :)");
+    }
 }

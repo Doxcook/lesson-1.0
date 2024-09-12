@@ -20,4 +20,9 @@ public class Dog extends Mammals {
     public void say() {
         System.out.println("Woof");
     }
+
+    @Override
+    public void run() {
+        System.out.println("Dog run");
+    }
 }

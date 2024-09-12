@@ -23,4 +23,8 @@ public class Cat extends Mammals {
     public void say(){
         System.out.println("myau");
     }
+
+    public void run(){
+        System.out.println("Cat run");
+    }
 }

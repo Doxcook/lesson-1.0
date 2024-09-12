@@ -21,6 +21,15 @@ public class Main {
             x.say();
         }
 
+        Run[] homeZoo2 = new Run[3];
+        homeZoo2[0] = cat;
+        homeZoo2[1] = dog;
+        homeZoo2[2] = toy;
+        // Для класса Speak перебрать каждый x из homezoo
+        for (Run x: homeZoo2){
+            x.run();
+        }
+
     }
 
 }

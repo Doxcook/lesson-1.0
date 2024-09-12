@@ -1,6 +1,6 @@
 package animal;
 
-public abstract class Mammals implements Speak{
+public abstract class Mammals implements Speak, Run{
     int age;
     String name;
 
@@ -30,4 +30,6 @@ public abstract class Mammals implements Speak{
     }
 
     abstract public void say();
+
+    abstract public void run();
 }
