@@ -1,6 +1,6 @@
 package animal;
 
-public class ToyDog {
+public class ToyDog implements Speak{
     String color;
     String material;
 

@@ -1,7 +1,4 @@
-import animal.Mammals;
-import animal.Dog;
-import animal.Cat;
-import animal.ToyDog;
+import animal.*;
 
 //123456fekfje
 public class Main {
@@ -15,12 +12,12 @@ public class Main {
         ToyDog toy = new ToyDog("green", "rubber");
 
        // Mammals[] homeZoo = new Mammals[3];
-        Mammals[] homeZoo = new Mammals[3];
+        Speak[] homeZoo = new Speak[3];
         homeZoo[0] = cat;
         homeZoo[1] = dog;
         homeZoo[2] = toy;
         // Для класса Mammals перебрать каждый x из homezoo
-        for (Mammals x: homeZoo){
+        for (Speak x: homeZoo){
             x.say();
         }
 

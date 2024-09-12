@@ -1,6 +1,6 @@
 package animal;
 
-public abstract class Mammals {
+public abstract class Mammals implements Speak{
     int age;
     String name;
 
