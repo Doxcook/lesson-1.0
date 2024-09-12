@@ -16,7 +16,7 @@ public class Main {
 
         Speak speakY = new CanSpeak();
         Speak speakN = new CantSpeak();
-        cat.setSpeak(speakY);
+        cat.setSpeak(speakN);
         dog.setSpeak(speakN);
 
         //home[2] = toyDog;
