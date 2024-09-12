@@ -6,7 +6,6 @@ import srategy.Speak;
 public abstract class Mammals {
     int age;
     String name;
-
     public Mammals(){
         age = 0;
         name = "none";
@@ -16,14 +15,14 @@ public abstract class Mammals {
         this.name = name;
     }
 
-    //abstract public void say();
-
+    //возможность говорить
     Speak speakBehavior = new CanSpeak();
 
+    //метод для смены возможности говорить
     public void setSpeak(Speak speak){
         this.speakBehavior = speak;
     }
-
+    //метод говорить
     public void speak(){
         speakBehavior.speak();
     }

@@ -1,5 +1,6 @@
 import Toys.ToyDog;
 import animal.*;
+import srategy.CantSpeak;
 import srategy.Speak;
 
 //123456fekfje
@@ -11,6 +12,10 @@ public class Main {
         Mammals []home = new Mammals[2];
         home[0] = cat;
         home[1] = dog;
+
+        Speak speak = new CantSpeak();
+        cat.setSpeak(speak);
+        cat.speak();
         //home[2] = toyDog;
         for(Mammals x: home){
             x.speak();
