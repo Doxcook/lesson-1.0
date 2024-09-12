@@ -16,7 +16,7 @@ public class Main {
         homeZoo[0] = cat;
         homeZoo[1] = dog;
         homeZoo[2] = toy;
-        // Для класса Mammals перебрать каждый x из homezoo
+        // Для класса Speak перебрать каждый x из homezoo
         for (Speak x: homeZoo){
             x.say();
         }
