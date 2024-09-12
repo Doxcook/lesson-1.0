@@ -12,16 +12,18 @@ public class Main {
         Dog dog = new Dog(2, "Gesha");
         System.out.println(dog);
 
-        Mammals[] homeZoo = new Mammals[2];
+        ToyDog toy = new ToyDog("green", "rubber");
+
+       // Mammals[] homeZoo = new Mammals[3];
+        Mammals[] homeZoo = new Mammals[3];
         homeZoo[0] = cat;
         homeZoo[1] = dog;
+        homeZoo[2] = toy;
         // Для класса Mammals перебрать каждый x из homezoo
         for (Mammals x: homeZoo){
             x.say();
         }
 
-        ToyDog toy = new ToyDog("green", "rubber");
-        toy.say();
     }
 
 }
