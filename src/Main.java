@@ -17,5 +17,8 @@ public class Main {
         for (Mammals x: homeZoo){
             x.say();
         }
+
+        Mammals mammals = new Mammals();
     }
+
 }
