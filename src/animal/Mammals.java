@@ -16,22 +16,6 @@ public abstract class Mammals {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     //abstract public void say();
 
     Speak speakBehavior = new CanSpeak();
@@ -40,7 +24,7 @@ public abstract class Mammals {
         this.speakBehavior = speak;
     }
 
-    void speak(){
+    public void speak(){
         speakBehavior.speak();
     }
 

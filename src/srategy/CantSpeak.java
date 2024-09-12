@@ -3,7 +3,7 @@ package srategy;
 public class CantSpeak implements Speak {
 
     @Override
-    public void say() {
+    public void speak() {
         System.out.println("I can speak");
     }
 }
