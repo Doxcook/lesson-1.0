@@ -23,6 +23,6 @@ public class Dog extends Mammals {
 
     @Override
     public void run() {
-        System.out.println("Dog run");
+        System.out.println("Dog " + name + " run");
     }
 }

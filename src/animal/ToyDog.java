@@ -34,6 +34,6 @@ public class ToyDog implements Speak,Run{
     }
 
     public void run(){
-        System.out.println("I can't run, I'm a toy :)");
+        System.out.println("Toy say: I can't run, I'm a toy :)");
     }
 }

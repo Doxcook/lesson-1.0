@@ -25,6 +25,6 @@ public class Cat extends Mammals {
     }
 
     public void run(){
-        System.out.println("Cat run");
+        System.out.println("Cat " + name + " run");
     }
 }
