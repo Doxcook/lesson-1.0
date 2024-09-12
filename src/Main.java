@@ -14,8 +14,10 @@ public class Main {
         home[0] = cat;
         home[1] = dog;
 
-        Speak speak = new CantSpeak();
-        cat.setSpeak(speak);
+        Speak speakY = new CanSpeak();
+        Speak speakN = new CantSpeak();
+        cat.setSpeak(speakY);
+        dog.setSpeak(speakN);
 
         //home[2] = toyDog;
         for(Mammals x: home){

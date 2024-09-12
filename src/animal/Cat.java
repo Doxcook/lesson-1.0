@@ -10,8 +10,9 @@ public class Cat extends Mammals {
         super(age, name);
     }
 
-    @Override
-    public void speak() {
-        super.speak();
-    }
+//    @Override
+//    public void speak() {
+//
+//        System.out.println("Myau");
+//    }
 }

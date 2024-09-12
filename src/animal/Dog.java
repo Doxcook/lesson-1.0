@@ -8,9 +8,9 @@ public class Dog extends Mammals {
         super(age, name);
     }
 
-    @Override
-    public void speak() {
-        System.out.println("Woof");
-    }
+//    @Override
+//    public void speak() {
+//        System.out.println("Woof");
+//    }
 
 }
